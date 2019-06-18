@@ -1,0 +1,21 @@
+.increase {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 50%;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 60px; }
+  @media only screen and (min-width: 1000px) {
+    .increase {
+      width: 30%;
+      padding-top: 0; } }
+  .increase__body {
+    color: #67A3E7;
+    font-size: 30px; }
+  .increase__footer {
+    color: #B6C3C0;
+    font-size: 18px; }
+  .increase .icon-circle-up {
+    color: #67A3E7;
+    font-size: 18px; }

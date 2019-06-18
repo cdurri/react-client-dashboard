@@ -1,0 +1,25 @@
+.active-clients {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 50%;
+  text-align: center;
+  padding-top: 60px; }
+  @media only screen and (min-width: 1000px) {
+    .active-clients {
+      width: 30%;
+      padding-top: 0; } }
+  .active-clients__bar {
+    height: 30px;
+    background: #596169; }
+  .active-clients__progress {
+    height: 100%;
+    width: 80%;
+    background: #67A3E7; }
+  .active-clients__total {
+    font-size: 30px;
+    color: #67A3E7; }
+  .active-clients__title {
+    text-transform: uppercase;
+    color: #B6C3C0;
+    font-size: 18px; }

@@ -1,0 +1,27 @@
+.alerts-results {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding: 20px 30px;
+  border-bottom: 1px solid #fff;
+  &__avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: #7BC6A7;
+    border-radius: 5px;
+  }
+  &__name {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  &__importance {
+    text-transform: uppercase;
+    font-weight: 600;
+    span {
+      padding-left: 10px;
+    }
+  }
+}

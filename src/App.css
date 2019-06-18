@@ -1,33 +1,76 @@
-.App {
-  text-align: center;
-}
+.clients {
+  background: #4B545D;
+  padding: 30px 30px 50px;
+  border-radius: 5px; }
+  .clients__header {
+    display: flex;
+    justify-content: space-between; }
+  .clients__select {
+    color: #67A3E7;
+    text-transform: uppercase;
+    font-weight: 600; }
+  .clients__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    @media only screen and (min-width: 1000px) {
+      .clients__body {
+        flex-direction: row;
+        justify-content: space-between; } }
+  .clients .icon-circle-right {
+    padding-left: 10px; }
+  .clients .icon-cog {
+    font-size: 20px;
+    color: #B6C3C0; }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.alerts {
+  margin-top: 40px;
+  background: #5BB892;
+  border-radius: 5px; }
+  .alerts__header {
+    padding: 30px 30px 5px;
+    border-bottom: 1px solid #fff; }
+  .alerts__title {
+    text-transform: uppercase;
+    padding-right: 20px;
+    font-weight: 600; }
+  .alerts__menu {
+    display: flex;
+    color: #fff; }
+  .alerts__options {
+    margin-left: auto; }
+    .alerts__options span {
+      padding: 0 10px;
+      font-size: 12px;
+      cursor: pointer; }
+  .alerts__save {
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 15px;
+    border: 1px solid #fff;
+    cursor: pointer; }
+  .alerts__order {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 30px; }
+  .alerts__important {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600; }
+  .alerts__footer {
+    padding: 0 30px 20px; }
+  .alerts__more {
+    text-align: center; }
+  .alerts__seemore, .alerts__viewall {
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer; }
+  .alerts__seemore {
+    padding: 10px 15px;
+    background: #7BC6A7;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px; }
+  .alerts__dropdown {
+    display: inline-block;
+    transform: rotate(90deg); }

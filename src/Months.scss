@@ -1,0 +1,30 @@
+.months {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  text-transform: uppercase;
+  width: 33%;
+  padding-top: 60px;
+  @media only screen and (min-width: 1000px) {
+    width: 15%;
+    padding-top: 0;
+  }
+  &__bar {
+    position: relative;
+    width: 10px;
+    height: 100px;
+    background: #596169;
+  }
+  &__progress {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background: #67A3E7;
+  }
+  &__title {
+    width: 100%;
+    color:#B6C3C0;
+    font-size: 18px;
+  }
+}
