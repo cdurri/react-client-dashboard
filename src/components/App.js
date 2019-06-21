@@ -5,7 +5,7 @@ import Months from './Months';
 import Increase from './Increase';
 import AlertsDetail from './AlertsDetail';
 import '../global.css';
-import '../app.css';
+import '../App.css';
 
 
 class App extends React.Component {
